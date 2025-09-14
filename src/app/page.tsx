@@ -1,3 +1,4 @@
+import Gallery from "@/components/gallery";
 import Header from "@/components/header";
 import Navbar from "@/components/nav";
 import React from "react";
@@ -8,7 +9,8 @@ const page = () => {
       <div className="w-full max-w-screen-2xl mx-auto p-20 bg-slate-100 rounded-2xl shadow-lg">
         <Navbar />
         <Header />
-        <h1 className="text-green-500 text-5xl font-bold">Home page</h1>
+        <Gallery />
+        
       </div>
     </main>
   );
